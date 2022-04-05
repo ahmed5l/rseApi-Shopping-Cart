@@ -22,6 +22,6 @@ app.use(express.json())
 app.use(require('./app/routes/events'))
 
 app.listen(port ,()=>{
-    console.log('Connection Okkkk')
+    console.log('Connection')
 })
  
